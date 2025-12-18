@@ -6,7 +6,7 @@ local MarketplaceService = game:GetService("MarketplaceService")
 
 local LocalPlayer = Players.LocalPlayer
 
-local Bundles = HttpService:JSONDecode(game:HttpGet('https://pastebin.com/raw/XppaAPF7'))
+local Bundles = HttpService:JSONDecode(game:HttpGet('https://raw.githubusercontent.com/RiqWhatever/AnimationChanger/refs/heads/main/Ids/Animations.json'))
 
 function ApplyAnimations(Animations,Character)
     local Animate = Character:FindFirstChild('Animate') or Character:WaitForChild('Animate')
